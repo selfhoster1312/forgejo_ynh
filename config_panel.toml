@@ -184,6 +184,18 @@ help.de = "Hier kannst du einige grundlegende Einstellungen für deine Forgejo-I
         no = "false"
 
     ####################
+    #### WEBHOOK CONFIG
+    ####################
+    [main.mirror.webhook_enabled]
+    ask.en = "Allow sending webhooks/notifications to 3rd party services?"
+    ask.fr = "Autoriser les webhooks/notifications à des services tiers ?"
+    help.en = "Allows sending event notifications from Forgejo to external services, for example CI providers or notification services."
+    help.fr = "Permet d'envoyer des notifications d'événements de Forgejo à des services externes, par exemples des fournisseurs de CI ou des services de notification."
+    type = "boolean"
+    yes = "true"
+    no = "false"
+
+    ####################
     #### MIRROR CONFIG
     ####################
 
